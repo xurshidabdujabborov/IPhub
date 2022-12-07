@@ -1,0 +1,40 @@
+.Bottom{
+    width: 100%;
+    background-image: url("../../assets//img/bottom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.Bottom .left{
+    text-align: left;
+}
+.Bottom .left p.text{
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+}
+.Bottom .left button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    background-color:  #1B1B1B;
+    padding: 24px 20px;
+    border-radius: 70%;
+    border: none;
+    margin-top: 45px;
+    color: white;
+}
+.Bottom .img{
+    text-align: right;
+}
+@media(max-width: 900px){
+    .Bottom .img img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .Bottom .left button{
+        padding: 14px 10px;
+    }
+}

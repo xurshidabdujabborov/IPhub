@@ -1,0 +1,50 @@
+.Work{
+    width: 100%;
+    margin-top: 160px;
+    background-image: url("../../assets//img/bacround.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 150px;
+}
+.Work .left{
+    text-align: left;
+}
+.Work .left h2.title{
+    color: black;
+}
+.Work .var{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.Work .var a{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #DA4533;
+    margin-left: 40px;
+    border: 1px solid #DA4533;
+    border-radius: 70%;
+    text-align: center;
+    padding: 10px 20px;
+}
+.Work .var a:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: #DA4533;
+    color: white;
+}
+.Work .img{
+    margin-top: 50px;
+}
+@media(max-width: 900px){
+    .Work .var{
+        padding: 40px 0px;
+        justify-content: center;
+    }
+}

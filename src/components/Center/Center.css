@@ -1,0 +1,29 @@
+.Center{
+    width: 100%;
+    background-image: url("../../assets/img/backgroud_red.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.Center p.text{
+    margin-top: 16px;
+}
+.Center .box{
+    margin-top: 100px;
+}
+.Center .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+.Center .css-i4bv87-MuiSvgIcon-root{
+    color: white;
+}
+.Center .css-15v22id-MuiAccordionDetails-root{
+    background-color: black;
+    color: white;
+}
+.Center .css-1pnmrwp-MuiTypography-root{
+    color: white;
+}

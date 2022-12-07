@@ -1,0 +1,41 @@
+.Foto{
+    width: 100%;
+    padding-top: 160px; 
+    padding-bottom: 200px;
+}
+.Foto .left{
+    text-align: left;
+}
+.Foto .right{
+   display: flex;
+   justify-content: right;
+   align-items: center;
+}
+.Foto .right a{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #DA4533;
+    margin-left: 40px;
+    border: 1px solid #DA4533;
+    border-radius: 70%;
+    text-align: center;
+    padding: 10px 20px;
+}
+.Foto .right a:hover{
+    transition: 1s;
+    background-color: #DA4533;
+    color: white;
+}
+.Foto .img{
+    margin-top: 50px;
+}
+@media(max-width: 900px){
+    .Foto .right{
+        padding: 40px 0px;
+        justify-content: center;
+    }
+}
